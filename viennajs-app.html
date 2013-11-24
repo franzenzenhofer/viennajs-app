@@ -1,0 +1,36 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>viennajs-app</title>
+</head>
+<body>
+  {{> appbar}}
+  {{> flipbox}}
+</body>
+
+<template name="appbar">
+<x-appbar>
+    <header>ViennaJS App</header>
+    <div id="install">☆</div>
+</x-appbar>
+</template>
+
+<template name="flipbox">
+<x-flipbox id="flip">
+  {{> card_one}}
+  {{> card_two}}
+</x-flipbox>
+</template>
+
+<template name="card_one">
+  <img src="/i/viennajs-logo.png">
+</template>
+
+<template name="card_two">
+  <div id="backside">
+    <h2>{{{headline}}}</h2>
+    <h1>{{readable_date}}</h1>
+    <center><h3>{{howlong}}</h3></center>
+    <h4>{{{cta}}}</h4>
+  </div>
+</template>

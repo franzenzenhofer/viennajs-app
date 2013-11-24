@@ -1,0 +1,74 @@
+/* CSS declarations go here */
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font: normal 10px "mozTT", sans-serif;
+  background: #fff;
+  margin:0px;
+  padding:0px;
+  overflow-x:hidden;
+  color: white;
+  text-align: center;
+  font-family: arial;
+}
+
+x-appbar {
+  position: -webkit-sticky !important;
+  position: -moz-sticky !important;
+  position: -ms-sticky !important;
+  position: -o-sticky !important;
+  top: 15px;
+}
+
+body {
+  position: relative;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    width:80%;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+
+x-layout > header, x-layout > footer{
+    padding: 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+html, body
+{
+
+}
+
+a { color: white;}
+
+#backside {
+  margin: 0 auto;
+  display: inline-block;
+  background-color: red;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}

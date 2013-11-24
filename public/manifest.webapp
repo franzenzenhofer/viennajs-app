@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "name": "ViennaJS App",
+  "launch_path": "/",
+  "description": "The official ViennaJS Firefox OS App",
+  "icons": {
+    "16": "/i/16.png",
+    "30": "/i/30.png",
+    "32": "/i/30.png",
+    "48": "/i/48.png",
+    "60": "/i/60.png",
+    "128": "/i/128.png",
+    "512": "/i/512.png"
+  },
+  "developer": {
+    "name": "Franz Enzenhofer",
+    "url": "http://viennajs.meteor.com/"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "chrome": { "navigation": false },
+  "fullscreen": "true",
+  "orientation": ["portrait","landscape-secondary"]
+}
